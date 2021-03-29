@@ -1,0 +1,9 @@
+.well{
+    background-color: #d7d0d0;
+    align-self: center;
+    padding: 20px;
+}
+.has-error{
+    color: red;
+    font-weight: 400;
+}
