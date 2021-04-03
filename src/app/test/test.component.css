@@ -1,0 +1,20 @@
+.error{
+    color: red;
+    font-size: 22px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.success{
+    color: green;
+    font-size: 22px;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.warning{
+    color: orange;
+    font-size: 22px;
+    border: 1px solid orange;
+    padding: 10px;
+}

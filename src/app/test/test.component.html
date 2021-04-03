@@ -1,0 +1,30 @@
+<h4>NgStyle Directive</h4>
+<div [ngStyle]="{ 'background-color':'red', 'font-size':'24px' }">
+    Section Text
+</div> <br>
+<div [ngStyle]="{'font-size':'24px' }">
+    Section Text
+</div> <br>
+
+<div [ngStyle]="{ 'background-color': isError ? 'red' : 'green'}">
+    Section Text
+</div> <br>
+
+<div [ngStyle]="{ 'color': isError ? 'red' : 'green'}">
+    Sample Text
+</div> <br>
+
+<h4>NgClass Directive</h4>
+<div [ngClass]="{'success':true}">
+    section text for nglcass example
+</div> <br> 
+
+<div [ngClass]="{'error':isError,'success':!isError }">
+    section text for nglcass example
+</div> <br> 
+
+<div [ngClass]="(isError) ? 'error': 'success'">
+    section text for nglcass example
+</div> <br> 
+
+<button class="btn btn-primary" (click)="changeErrorStatus()">Change Error Status</button>

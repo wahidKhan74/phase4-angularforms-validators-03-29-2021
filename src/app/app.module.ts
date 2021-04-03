@@ -9,13 +9,15 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { from } from 'rxjs';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     TemplateFormComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
